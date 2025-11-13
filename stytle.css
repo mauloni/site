@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #de2a16; /* Vermelho-alerta */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #898281;
+}
+
+h1, h2 {
+    color: #513f3d;
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-destaque, .imagem-ajuda {
+    max-width: 100%; /* Garante que a imagem se ajuste ao container */
+    height: auto;
+    display: block; /* Remove espaço extra abaixo da imagem */
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 3px solid #a42626;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: rgb(131, 131, 146);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Estilos específicos para a seção de ajuda */
+.ajude h2 {
+    color: blue; /* Verde de esperança */
+}
+
